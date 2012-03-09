@@ -1,0 +1,24 @@
+What:
+Bus controller board for the Blinkenlichten RGB LED controller
+
+
+How:
+* Blinkenlichten RGB LED controller (http://loetmeister.de/Elektronik/blinkenlichten_rgb_controller.htm) based on http://tim.cexx.org/?p=453
+* Using Arduino NG with ATMEGA168
+
+
+Features:
+(1st running version, bear with me!)
+- drive a bus of Blinkenlichten RGB LED controller (o rly? ;))
+- interface to LCD (8*2)
+- 3 buttons on ADC in (analog input)
+- for all devices on the bus:
+	moodlight mode (configurable speed)
+	R, G ,B color select
+
+	
+Planned:
+- Infrared input (like RC5)
+- use EEPROM to save setup
+- microphone input
+- ...
